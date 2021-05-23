@@ -22,10 +22,10 @@
                         <a href="vendedor-inicio.html" class="text-light text-decoration-none fw-normal">INICIO</a>
                     </li>
                     <li class="nav-item pe-5">
-                        <a href="#" class="text-light text-decoration-none fw-normal">MIS DATOS</a>
+                        <a href="vendedor-datos.html" class="text-light text-decoration-none fw-normal">MIS DATOS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="text-light text-decoration-none fw-normal">CERRAR SESION<i class="fas fa-sign-out-alt ps-2 fs-5"></i></a>
+                        <a href="../../index.html" class="text-light text-decoration-none fw-normal">CERRAR SESION<i class="fas fa-sign-out-alt ps-2 fs-5"></i></a>
                     </li>
                 </ul>
             </div>
@@ -37,8 +37,8 @@
       <div class="container">
         <nav class="nav nav-pills flex-column flex-sm-row mt-5 mx-auto" style="max-width: 500px;">
             <a class="flex-sm-fill text-sm-center nav-link bg-dark active" aria-current="page" href="vendedor-inicio.html">MI NEGOCIO</a>
-            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="#" style="background-color: #adb5bd;">MIS PRODUCTOS</a>
-            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="#" style="background-color: #adb5bd;">PEDIDOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="vendedor-productos.html" style="background-color: #adb5bd;">MIS PRODUCTOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="vendedor-pedidos.html" style="background-color: #adb5bd;">PEDIDOS</a>
         </nav>
       </div>
     <!-- BARRA SECUNDARIA -->
@@ -119,57 +119,41 @@
                         <!-- VISTA <LG -->
                             <div class="d-md-none">
                                 <div class="row mt-2">
-                                    <div class="col-5 text-end">
+                                    <div class="col-12 text-center">
                                         <i class="fas fa-unlock"></i>
-                                    </div>
-                                    <div class="col-7">
                                         <span class="text-success">ABIERTO</span>
                                     </div>
                                     <div class="col-12 text-center pb-3">
                                         <a href="#">CERRAR ATENCIÓN</a>
                                     </div>
-                                    <div class="col-5 text-end pb-3">
+                                    <div class="col-12 text-center pb-3">
                                         <i class="fas fa-cash-register fs-5"></i>
-                                    </div>
-                                    <div class="col-7">
                                         <span>Lider Express</span>
                                     </div>
-                                    <div class="col-5 text-end pb-3">
+                                    <div class="col-12 text-center pb-3">
                                         <i class="far fa-envelope fs-5"></i>
-                                    </div>
-                                    <div class="col-7">
                                         <span>example@example.cl</span>
                                     </div>
-                                    <div class="col-5 text-end pb-3">
+                                    <div class="col-12 text-center pb-3">
                                         <i class="fas fa-map-marker-alt fs-5"></i>
-                                    </div>
-                                    <div class="col-7">
                                         <span>Chorrillos #1138</span>
                                     </div>
-                                    <div class="col-5 text-end pb-3">
+                                    <div class="col-12 text-center pb-3">
                                         <i class="far fa-money-bill-alt fs-5"></i>
-                                    </div>
-                                    <div class="col-7 pb-3">
                                         Costo envío <br>
                                         <span class="fw-bold">$890</span>
                                     </div>
-                                    <div class="col-5 text-end pb-3">
+                                    <div class="col-12 text-center pb-3">
                                         <i class="fas fa-phone fs-5"></i>
-                                    </div>
-                                    <div class="col-7">
                                         <span>+56987654321</span>
                                     </div>
-                                    <div class="col-5 text-end pb-3">
+                                    <div class="col-12 text-center pb-3">
                                         <i class="far fa-clock fs-5"></i>
-                                    </div>
-                                    <div class="col-7 pb-3">
                                         Tiempo espera <br>
                                         <span class="fw-bold">30-50 mins</span>
                                     </div>
-                                    <div class="col-3  text-end">
+                                    <div class="col-12 text-center pb-2">
                                         <i class="fas fa-motorcycle"></i>
-                                    </div>
-                                    <div class="col-9">
                                         <span>Envío a cargo de BEC Market</span>
                                     </div>
                                 </div>
@@ -182,7 +166,7 @@
         <!-- EDITAR DATOS -->
             <div class="col-xl-6 border p-3 border-dark rounded mb-4" style="max-width: 500px;">
                 <div class="row mt-2">
-                    <div class="col-10 mx-auto">
+                    <div class="col-md-10 mx-auto">
                         <label for="horario" class="form-label fw-bold">Horario de atención:</label>
                         <select class="form-select mb-3"  id="horario" style="max-width: 380px;">
                                 <option selected>Seleccione horario</option>
@@ -191,26 +175,26 @@
                                 <option value="3">Todos los días</option>
                         </select>
                     </div>
-                    <div class="col-10 d-flex mx-auto">
-                        <div class="col-6 text-end d-flex me-1">
+                    <div class="col-md-10 d-flex mx-auto">
+                        <div class="col-md-6 text-end d-flex me-1">
                             <label for="desde" class="form-label me-2">Desde:</label>
                             <input class="form-control form-control-sm" type="text" id="desde" placeholder="Hora" style="max-width: 70px;">
                         </div>
-                        <div class="col-6 d-flex">
+                        <div class="col-md-6 d-flex">
                             <label for="hasta" class="form-label me-2">Hasta:</label>
                             <input class="form-control form-control-sm" type="text" id="hasta" placeholder="Hora" style="max-width: 70px;">
                         </div>
                     </div>
-                    <div class="col-10 mx-auto mt-3">
+                    <div class="col-md-10 mx-auto mt-3">
                         <label for="cd" class="form-label fw-bold">Teléfono:</label>
                         <input type="text" class="form-control" id="cd" style="max-width: 400px;" placeholder="+56987654321">
                     </div>
-                    <div class="col-10 mx-auto mt-3">
+                    <div class="col-md-10 mx-auto mt-3">
                         <label for="ed" class="form-label fw-bold">E-mail</label>
                         <input type="text" class="form-control" id="ed" style="max-width: 400px;" placeholder="correo@example.com">    
                     </div>
-                    <div class="col-10 mx-auto mt-3 d-flex">
-                        <div class="col-7">
+                    <div class="col-md-10 mx-auto mt-3 d-flex">
+                        <div class="col-md-7">
                             <label for="horario" class="form-label fw-bold">Tipo envio:</label>
                             <select class="form-select mb-3"  id="horario" style="max-width: 380px;">
                                 <option selected>Seleccione tipo</option>
@@ -218,7 +202,7 @@
                                 <option value="2">A cargo de BEC Market</option>
                             </select>
                         </div>
-                        <div class="col-5 ms-4">
+                        <div class="col-md-5 ms-4">
                             <label for="costo" class="form-label fw-bold">Costo envío:</label>
                             <input type="text" class="form-control" id="costo" style="max-width: 100px;">   
                         </div>
@@ -230,20 +214,19 @@
         <!-- EDITAR DATOS -->
     </div>
     
-
     <!-- FOOTER -->
     <div class="container text-center" style="margin-top: 110px;">
         <div class="row">
-          <div class="col-sm pb-5">
+          <div class="col-md pb-5">
             <h2 class="display-5">BEC Market</h2>
           </div>
-          <div class="col-sm pb-5">
+          <div class="col-md pb-5">
                 <p class="lead pb-2"><strong>NUESTRAS REDES</strong></p>
                 <a href="#"><i class="fab fa-facebook-f fs-4 text-dark me-5"></i></a>
                 <a href="#"><i class="fab fa-twitter fs-4 text-dark me-5"></i></a>
                 <a href="#"><i class="fab fa-instagram fs-4 text-dark"></i></a>
           </div>
-          <div class="col-sm pb-5">
+          <div class="col-md pb-5">
             <p class="lead"><strong>CONTACTO</strong></p>
             <a href="MAILTO:contacto@example.com" class="text-decoration-none lead">contacto@example.com</a></span></p>
           </div>
