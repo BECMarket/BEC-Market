@@ -19,13 +19,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item pe-5">
-                        <a href="vendedor-inicio.html" class="text-light text-decoration-none fw-normal">INICIO</a>
+                        <a href="vendedor-inicio.php" class="text-light text-decoration-none fw-normal">INICIO</a>
                     </li>
                     <li class="nav-item pe-5">
-                        <a href="vendedor-datos.html" class="text-light text-decoration-none fw-normal">MIS DATOS</a>
+                        <a href="vendedor-datos.php" class="text-light text-decoration-none fw-normal">MIS DATOS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../../index.html" class="text-light text-decoration-none fw-normal">CERRAR SESION<i class="fas fa-sign-out-alt ps-2 fs-5"></i></a>
+                        <a href="../../index.php" class="text-light text-decoration-none fw-normal">CERRAR SESION<i class="fas fa-sign-out-alt ps-2 fs-5"></i></a>
                     </li>
                 </ul>
             </div>
@@ -36,16 +36,16 @@
     <!-- BARRA SECUNDARIA -->
       <div class="container">
         <nav class="nav nav-pills flex-column flex-sm-row mt-5 mx-auto" style="max-width: 500px;">
-            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="vendedor-inicio.html" style="background-color: #adb5bd;">MI NEGOCIO</a>
-            <a class="flex-sm-fill text-sm-center nav-link bg-dark active" href="vendedor-productos.html">MIS PRODUCTOS</a>
-            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="vendedor-pedidos.html" style="background-color: #adb5bd;">PEDIDOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="vendedor-inicio.php" style="background-color: #adb5bd;">MI NEGOCIO</a>
+            <a class="flex-sm-fill text-sm-center nav-link bg-dark active" href="vendedor-productos.php">MIS PRODUCTOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="vendedor-pedidos.php" style="background-color: #adb5bd;">PEDIDOS</a>
         </nav>
       </div>
     <!-- BARRA SECUNDARIA -->
 
     <!-- NUEVO PRODUCTO -->
     <div class="container mt-3">
-        <a href="vendedor-productos.html"><i class="fas fa-chevron-circle-left fs-1 text-dark ms-5 mb-3"></i></a>
+        <a href="vendedor-productos.php"><i class="fas fa-chevron-circle-left fs-1 text-dark ms-5 mb-3"></i></a>
         <div class="border border-2 border-dark rounded mx-auto pb-3" style="max-width: 600px;">
             <h5 class="h5 text-center mt-3 mb-4">NUEVO PRODUCTO</h5>
             <div class="row">

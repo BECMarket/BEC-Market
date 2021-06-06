@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="../../index.html" class="text-light text-decoration-none fw-normal">CERRAR SESION<i class="fas fa-sign-out-alt ps-2 fs-5"></i></a>
+                        <a href="../../index.php" class="text-light text-decoration-none fw-normal">CERRAR SESION<i class="fas fa-sign-out-alt ps-2 fs-5"></i></a>
                     </li>
                 </ul>
             </div>
@@ -30,9 +30,9 @@
     <!-- BARRA SECUNDARIA -->
       <div class="container">
         <nav class="nav nav-pills flex-column flex-sm-row mt-5 mx-auto" style="max-width: 500px;">
-            <a class="flex-sm-fill text-sm-center nav-link bg-dark active" href="repartidor-inicio.html">MIS DATOS</a>
-            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="repartidor-mis-pedidos.html" style="background-color: #adb5bd;">MIS PEDIDOS</a>
-            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="repartidor-buscar-pedidos.html" style="background-color: #adb5bd;">BUSCAR PEDIDOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link bg-dark active" href="repartidor-inicio.php">MIS DATOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="repartidor-mis-pedidos.php" style="background-color: #adb5bd;">MIS PEDIDOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="repartidor-buscar-pedidos.php" style="background-color: #adb5bd;">BUSCAR PEDIDOS</a>
         </nav>
       </div>
     <!-- BARRA SECUNDARIA -->

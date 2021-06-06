@@ -19,16 +19,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item pe-5">
-                        <a href="vistas/vendedor/vendedor-inicio.html" class="btn btn-light">Vendedor</a>
+                        <a href="vistas/vendedor/vendedor-inicio.php" class="btn btn-light">Vendedor</a>
                     </li>
                     <li class="nav-item pe-5">
-                        <a href="vistas/repartidor/repartidor-inicio.html" class="btn btn-light">Repartidor</a>
+                        <a href="vistas/repartidor/repartidor-inicio.php" class="btn btn-light">Repartidor</a>
                     </li>
                     <li class="nav-item pe-5">
-                        <a href="registro.html" class="btn btn-outline-light">REGISTRARSE</a>
+                        <a href="registro.php" class="btn btn-outline-light">REGISTRARSE</a>
                     </li>
                     <li class="nav-item">
-                        <a href="login.html" class="btn btn-outline-light">INICIAR SESION</a>
+                        <a href="login.php" class="btn btn-outline-light">INICIAR SESION</a>
                     </li>
                 </ul>
             </div>
@@ -75,7 +75,7 @@
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper condimentum ultrices.
                         </p>
-                        <a href="registro.html" class="btn btn-dark mt-3">REGISTRATE AQUÍ</a>
+                        <a href="registro.php" class="btn btn-dark mt-3">REGISTRATE AQUÍ</a>
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@
                         y eso aksjhd info general sobre las principales funcionalidades pa los vendedores
                         Y el boton que mande un registro para ellos
                     </p>
-                    <a href="registronegocio.html" class="btn btn-light mt-4 mb-4"><strong>REGISTRA TU NEGOCIO</strong></a>
+                    <a href="registronegocio.php" class="btn btn-light mt-4 mb-4"><strong>REGISTRA TU NEGOCIO</strong></a>
                 </div>
             </div>
             <div class="card text-center">
@@ -107,7 +107,7 @@
                         Aca basicamente lo mismo que al lado pero para los repartidores, poner como funciones y ventajas no se xd
                         Y el boton que mande el registro para ellos xd
                     </p>
-                    <a href="registrorepartidor.html" class="btn btn-dark mt-4 mb-4"><strong>REGISTRATE</strong></a>
+                    <a href="registrorepartidor.php" class="btn btn-dark mt-4 mb-4"><strong>REGISTRATE</strong></a>
                 </div>
             </div>
         </div>

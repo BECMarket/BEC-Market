@@ -19,13 +19,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item pe-5">
-                        <a href="cliente-inicio.html" class="text-light text-decoration-none fw-normal">INICIO</a>
+                        <a href="cliente-inicio.php" class="text-light text-decoration-none fw-normal">INICIO</a>
                     </li>
                     <li class="nav-item pe-5">
-                        <a href="cliente-datos.html" class="text-light text-decoration-none fw-normal">MIS DATOS</a>
+                        <a href="cliente-datos.php" class="text-light text-decoration-none fw-normal">MIS DATOS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../../index.html" class="text-light text-decoration-none fw-normal">CERRAR SESION<i class="fas fa-sign-out-alt ps-2 fs-5"></i></a>
+                        <a href="../../index.php" class="text-light text-decoration-none fw-normal">CERRAR SESION<i class="fas fa-sign-out-alt ps-2 fs-5"></i></a>
                     </li>
                 </ul>
             </div>
@@ -36,9 +36,9 @@
     <!-- BARRA SECUNDARIA -->
     <div class="container">
         <nav class="nav nav-pills flex-column flex-sm-row mt-5 mx-auto" style="max-width: 500px;">            
-            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="cliente-inicio.html" style="background-color: #adb5bd;">POPULARES</a>
-            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="cliente-negocio.html" style="background-color: #adb5bd;">NEGOCIOS</a>
-            <a class="flex-sm-fill text-sm-center nav-link bg-dark active" aria-current="page" href="cliente-mispedidos.html">MIS PEDIDOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="cliente-inicio.php" style="background-color: #adb5bd;">POPULARES</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="cliente-negocio.php" style="background-color: #adb5bd;">NEGOCIOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link bg-dark active" aria-current="page" href="cliente-mispedidos.php">MIS PEDIDOS</a>
         </nav>
     </div>
     <!-- BARRA SECUNDARIA -->
@@ -46,15 +46,15 @@
     <!-- TERCERA BARRA -->
     <div class="container">
         <nav class="nav nav-pills flex-column flex-sm-row mt-5 mx-auto" style="max-width: 250px;">            
-            <a class="flex-sm-fill text-sm-center nav-link link-dark small" href="cliente-mispedidos.html" style="background-color: #adb5bd;">EN CURSO</a>
-            <a class="flex-sm-fill text-sm-center nav-link link-dark small" href="cliente-pedidos-historial.html" style="background-color: #adb5bd;">HISTORIAL</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark small" href="cliente-mispedidos.php" style="background-color: #adb5bd;">EN CURSO</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark small" href="cliente-pedidos-historial.php" style="background-color: #adb5bd;">HISTORIAL</a>
         </nav>
     </div>
     <!-- TERCERA BARRA -->
 
     <!-- DETALLES PEDIDO -->
     <div class="container mt-3">
-        <a href="cliente-mispedidos.html"><i class="fas fa-chevron-circle-left fs-1 text-dark ms-5 mb-3"></i></a>
+        <a href="cliente-mispedidos.php"><i class="fas fa-chevron-circle-left fs-1 text-dark ms-5 mb-3"></i></a>
         <div class="border border-2 border-dark rounded mx-auto pb-3" style="max-width: 800px;">
             <h5 class="h5 text-center mt-3 mb-4">Pedido a <span>Lider Express</span></h5>
             <!-- VISTA <LG -->

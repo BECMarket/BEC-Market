@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="../../index.html" class="text-light text-decoration-none fw-normal">CERRAR SESION<i class="fas fa-sign-out-alt ps-2 fs-5"></i></a>
+                        <a href="../../index.php" class="text-light text-decoration-none fw-normal">CERRAR SESION<i class="fas fa-sign-out-alt ps-2 fs-5"></i></a>
                     </li>
                 </ul>
             </div>
@@ -30,9 +30,9 @@
     <!-- BARRA SECUNDARIA -->
       <div class="container">
         <nav class="nav nav-pills flex-column flex-sm-row mt-5 mx-auto" style="max-width: 500px;">
-            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="repartidor-inicio.html" style="background-color: #adb5bd;">MIS DATOS</a>
-            <a class="flex-sm-fill text-sm-center nav-link bg-dark active" href="repartidor-mis-pedidos.html">MIS PEDIDOS</a>
-            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="repartidor-buscar-pedidos.html" style="background-color: #adb5bd;">BUSCAR PEDIDOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="repartidor-inicio.php" style="background-color: #adb5bd;">MIS DATOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link bg-dark active" href="repartidor-mis-pedidos.php">MIS PEDIDOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="repartidor-buscar-pedidos.php" style="background-color: #adb5bd;">BUSCAR PEDIDOS</a>
         </nav>
       </div>
     <!-- BARRA SECUNDARIA -->
@@ -40,8 +40,8 @@
     <!-- TERCERA BARRA -->
     <div class="container">
         <nav class="nav nav-pills flex-column flex-sm-row mt-5 mx-auto" style="max-width: 250px;">            
-            <a class="flex-sm-fill text-sm-center nav-link bg-dark active small" href="repartidor-mis-pedidos.html">SIN ENTREGAR</a>
-            <a class="flex-sm-fill text-sm-center nav-link link-dark small" href="repartidor-pedidos-historial.html" style="background-color: #adb5bd;">HISTORIAL</a>
+            <a class="flex-sm-fill text-sm-center nav-link bg-dark active small" href="repartidor-mis-pedidos.php">SIN ENTREGAR</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark small" href="repartidor-pedidos-historial.php" style="background-color: #adb5bd;">HISTORIAL</a>
         </nav>
     </div>
     <!-- TERCERA BARRA -->
@@ -92,7 +92,7 @@
                     <td>Eduardo Maureira</td>
                     <td>Bicentenario, Pasaje Reconquista #1351, San Javier</td>
                     <td>$1700</td>
-                    <td><a href="repartidor-pedido-detalle.html">Ver detalles</a></td>
+                    <td><a href="repartidor-pedido-detalle.php">Ver detalles</a></td>
                     <td class="text-success">En preparación</td>
                 </tr>
                 <tr>
@@ -119,7 +119,7 @@
                     Dirección: <span>Bicentenario, Pasaje Reconquista #1351, San Javier</span> <br>
                     <span class="text-success">En preparación</span>
                     <br>
-                    <a href="repartidor-pedido-detalle.html">Ver detalles</a>
+                    <a href="repartidor-pedido-detalle.php">Ver detalles</a>
                 </div>
             </div>
             <div class="col-lg-7 border p-3 border-dark rounded-3 mb-3 d-flex align-items-center" style="max-width: 300px;">

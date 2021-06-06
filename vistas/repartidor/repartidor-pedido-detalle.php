@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="../../index.html" class="text-light text-decoration-none fw-normal">CERRAR SESION<i class="fas fa-sign-out-alt ps-2 fs-5"></i></a>
+                        <a href="../../index.php" class="text-light text-decoration-none fw-normal">CERRAR SESION<i class="fas fa-sign-out-alt ps-2 fs-5"></i></a>
                     </li>
                 </ul>
             </div>
@@ -30,9 +30,9 @@
     <!-- BARRA SECUNDARIA -->
       <div class="container">
         <nav class="nav nav-pills flex-column flex-sm-row mt-5 mx-auto" style="max-width: 500px;">
-            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="repartidor-inicio.html" style="background-color: #adb5bd;">MIS DATOS</a>
-            <a class="flex-sm-fill text-sm-center nav-link bg-dark active" href="repartidor-mis-pedidos.html">MIS PEDIDOS</a>
-            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="repartidor-buscar-pedidos.html" style="background-color: #adb5bd;">BUSCAR PEDIDOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="repartidor-inicio.php" style="background-color: #adb5bd;">MIS DATOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link bg-dark active" href="repartidor-mis-pedidos.php">MIS PEDIDOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="repartidor-buscar-pedidos.php" style="background-color: #adb5bd;">BUSCAR PEDIDOS</a>
         </nav>
       </div>
     <!-- BARRA SECUNDARIA -->
@@ -40,15 +40,15 @@
     <!-- TERCERA BARRA -->
     <div class="container">
         <nav class="nav nav-pills flex-column flex-sm-row mt-5 mx-auto" style="max-width: 250px;">            
-            <a class="flex-sm-fill text-sm-center nav-link link-dark small" href="repartidor-mis-pedidos.html" style="background-color: #adb5bd;">SIN ENTREGAR</a>
-            <a class="flex-sm-fill text-sm-center nav-link link-dark small" href="repartidor-pedidos-historial.html" style="background-color: #adb5bd;">HISTORIAL</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark small" href="repartidor-mis-pedidos.php" style="background-color: #adb5bd;">SIN ENTREGAR</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark small" href="repartidor-pedidos-historial.php" style="background-color: #adb5bd;">HISTORIAL</a>
         </nav>
     </div>
     <!-- TERCERA BARRA -->
 
     <!--DETALLE PEDIDO-->
     <div class="container mt-3">
-        <a href="repartidor-mis-pedidos.html"><i class="fas fa-chevron-circle-left fs-1 text-dark ms-5 mb-3"></i></a>
+        <a href="repartidor-mis-pedidos.php"><i class="fas fa-chevron-circle-left fs-1 text-dark ms-5 mb-3"></i></a>
         <div class="border border-2 border-dark rounded mx-auto pb-3" style="max-width: 800px;">
             <h5 class="h5 text-center mt-3 mb-4">DETALLE DEL PEDIDO: <span>ABC299</span></h5>
             <!-- VISTA <LG -->
@@ -160,6 +160,8 @@
                 </div>
             </div>
             <!-- VISTA >MD -->
+
+            <!-- TABLA DETALLES -->
             <h5 class="h5 text-center mt-3 mb-4">Detalles del pedido</h5>
             <table class="table table-hover table-bordered text-center mx-auto table-responsive" style="max-width: 500px;">
                 <thead class="table-dark">
@@ -213,6 +215,7 @@
                     </div>
                 </div>
             </div>
+            <!-- TABLA DETALLES -->
         </div>
     </div>
     <!--DETALLE PEDIDO-->

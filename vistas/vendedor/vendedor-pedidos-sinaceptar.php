@@ -19,13 +19,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item pe-5">
-                        <a href="vendedor-inicio.html" class="text-light text-decoration-none fw-normal">INICIO</a>
+                        <a href="vendedor-inicio.php" class="text-light text-decoration-none fw-normal">INICIO</a>
                     </li>
                     <li class="nav-item pe-5">
-                        <a href="vendedor-datos.html" class="text-light text-decoration-none fw-normal">MIS DATOS</a>
+                        <a href="vendedor-datos.php" class="text-light text-decoration-none fw-normal">MIS DATOS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../../index.html" class="text-light text-decoration-none fw-normal">CERRAR SESION<i class="fas fa-sign-out-alt ps-2 fs-5"></i></a>
+                        <a href="../../index.php" class="text-light text-decoration-none fw-normal">CERRAR SESION<i class="fas fa-sign-out-alt ps-2 fs-5"></i></a>
                     </li>
                 </ul>
             </div>
@@ -36,9 +36,9 @@
     <!-- BARRA SECUNDARIA -->
       <div class="container">
         <nav class="nav nav-pills flex-column flex-sm-row mt-5 mx-auto" style="max-width: 500px;">
-            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="vendedor-inicio.html" style="background-color: #adb5bd;">MI NEGOCIO</a>
-            <a class="flex-sm-fill text-sm-center nav-link link-dark" style="background-color: #adb5bd;" href="vendedor-productos.html">MIS PRODUCTOS</a>
-            <a class="flex-sm-fill text-sm-center nav-link bg-dark active" href="vendedor-pedidos.html" >PEDIDOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark" href="vendedor-inicio.php" style="background-color: #adb5bd;">MI NEGOCIO</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark" style="background-color: #adb5bd;" href="vendedor-productos.php">MIS PRODUCTOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link bg-dark active" href="vendedor-pedidos.php" >PEDIDOS</a>
         </nav>
       </div>
     <!-- BARRA SECUNDARIA -->
@@ -46,9 +46,9 @@
     <!-- TERCERA BARRA -->
     <div class="container">
         <nav class="nav nav-pills flex-column flex-sm-row mt-5 mx-auto" style="max-width: 400px;">            
-            <a class="flex-sm-fill text-sm-center nav-link link-dark small" href="vendedor-pedidos.html" style="background-color: #adb5bd;">ACEPTADOS</a>
-            <a class="flex-sm-fill text-sm-center nav-link bg-dark active small" href="vendedor-pedidos-sinaceptar.html" style="background-color: #adb5bd;">SIN ACEPTAR</a>
-            <a class="flex-sm-fill text-sm-center nav-link link-dark small" href="vendedor-pedidos-historial.html" style="background-color: #adb5bd;">HISTORIAL</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark small" href="vendedor-pedidos.php" style="background-color: #adb5bd;">ACEPTADOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link bg-dark active small" href="vendedor-pedidos-sinaceptar.php" style="background-color: #adb5bd;">SIN ACEPTAR</a>
+            <a class="flex-sm-fill text-sm-center nav-link link-dark small" href="vendedor-pedidos-historial.php" style="background-color: #adb5bd;">HISTORIAL</a>
         </nav>
     </div>
     <!-- TERCERA BARRA -->
@@ -72,7 +72,7 @@
                     <td>Eduardo Maureira</td>
                     <td>Benjamin Muñoz</td>
                     <td>$1700</td>
-                    <td><a href="vendedor-pedido-detalle.html">Ver detalles</a></td>
+                    <td><a href="vendedor-pedido-detalle.php">Ver detalles</a></td>
                     <td>
                         <button class="btn ms-2"><i class="fas fa-check fs-2 text-success"></i></button>
                         <button class="btn ms-2"><i class="fas fa-times fs-2 me-2 text-danger"></i></button>
@@ -105,7 +105,7 @@
                     Repartidor: <span>Benjamin Muñoz</span> <br>
                     <span class="text-primary">En espera</span>
                     <br>
-                    <a href="vendedor-pedido-detalle.html">Ver detalles</a>
+                    <a href="vendedor-pedido-detalle.php">Ver detalles</a>
                     <div class="d-flex flex-row bd-highlight justify-content-between mt-2">
                         <div class="p-2 bd-highlight">
                             <button class="btn ms-2"><i class="fas fa-check fs-2 text-success"></i></button>

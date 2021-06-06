@@ -50,7 +50,7 @@
     
                 <div class="row row row-cols-2 row-cols-sm-1 row-cols-md-3">
                     <div class="col-sm-4 mt-4">
-                        <a href="index.html" class="ms-5 mt-3"><i class="fas fa-chevron-circle-left display-5 text-dark"></i></a>
+                        <a href="index.php" class="ms-5 mt-3"><i class="fas fa-chevron-circle-left display-5 text-dark"></i></a>
                     </div>
         
                     <div class="col-sm-4 mt-4">
@@ -59,7 +59,7 @@
         
                     <div class="col-sm-4 text-center mt-4 mx-auto">
                         <p class="text-center"> 
-                            ¿Ya tienes cuenta? <a href="login.html">Inicia sesión aquí</a>
+                            ¿Ya tienes cuenta? <a href="login.php">Inicia sesión aquí</a>
                         </p>
                     </div>
                 </div>

@@ -45,14 +45,14 @@
 
             <div class="row">
                 <div class="col-2 mt-4 ms-3">
-                    <a href="index.html"><i class="fas fa-chevron-circle-left display-6 text-dark"></i></a>
+                    <a href="index.php"><i class="fas fa-chevron-circle-left display-6 text-dark"></i></a>
                 </div>
                 <div class="col-6 mt-4 mx-auto">
-                    <a href="vistas/cliente/cliente-inicio.html" class="btn btn-dark">Iniciar sesion</a>
+                    <a href="vistas/cliente/cliente-inicio.php" class="btn btn-dark">Iniciar sesion</a>
                 </div>
             </div>
             <p class="text-center mt-4"> 
-                ¿No tienes cuenta? <a href="registro.html">Regístrate aquí</a>
+                ¿No tienes cuenta? <a href="registro.php">Regístrate aquí</a>
             </p>
         </div>
 
